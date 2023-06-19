@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import axios from "axios";
-// import { UserContext } from "../../App";
+import { UserContext } from "../../App";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -42,7 +42,7 @@ function Login() {
   return (
     <>
       <Helmet>
-        <title>AllRecipes| Login Page</title>
+      <title>AllRecipes| Login Page</title>
       </Helmet>
       <Container>
         <LeftContainer>
